@@ -1,5 +1,5 @@
 module.exports = {
-
+	
 	"extends": [
 		"degree53-core/config/best-practices",
 		"degree53-core/config/possible-errors",
@@ -9,12 +9,12 @@ module.exports = {
 	
 	"parserOptions": {
 		"ecmaFeatures": {
-			"globalReturn": false
+			"globalReturn": false,
+			"impliedStrict": true
 		}
 	},
 	
 	"rules": {
 		"strict": [ 2, "safe" ]
 	}
-
 };
